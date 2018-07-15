@@ -1,6 +1,13 @@
 @font-face {
-  font-family: 'ProximaSoft';
-  src: url('proxima-soft-medium.woff2') format('woff2');
+  font-family: 'ProximaSoftMark';
+  src: url('proxima-soft-medium-mark.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaSoftYWFT';
+  src: url('proxima-soft-medium-ywft.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
 }
@@ -11,6 +18,10 @@ textarea {
   font-family: sans-serif;
 }
 
-input.proximasoft, textarea.proximasoft {
-  font-family: 'ProximaSoft';
+input.mark, textarea.mark {
+  font-family: 'ProximaSoftMark';
+}
+
+input.ywft, textarea.ywft {
+  font-family: 'ProximaSoftYWFT';
 }
