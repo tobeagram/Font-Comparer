@@ -1,2 +1,2 @@
-# fonttester
-Testing the Proxima Soft font
+# Font Comparer
+Currently compares Proxima Soft, YouWorkForThem with the Original by Mark Simonson. 
